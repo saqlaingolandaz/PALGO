@@ -17,13 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPz-kV-Thy">
-                                <rect key="frame" x="115" y="135" width="145" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHx-1A-Wmp">
+                                <rect key="frame" x="117" y="77" width="141" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Lean Muscle Growth"/>
                                 <connections>
-                                    <action selector="leanMuscleGrowth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="30z-33-oE1"/>
-                                    <segue destination="CpN-K5-7wp" kind="show" id="5fF-Aa-d9d"/>
+                                    <segue destination="4pf-aD-DRi" kind="show" id="Xe8-CO-s5u"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,15 +36,15 @@
             </objects>
             <point key="canvasLocation" x="379.5" y="316.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="tjh-gk-ijW">
+        <!--Lean Muscle Growth View Controller-->
+        <scene sceneID="tTw-dw-9h0">
             <objects>
-                <viewController id="CpN-K5-7wp" sceneMemberID="viewController">
+                <viewController id="4pf-aD-DRi" customClass="LeanMuscleGrowthViewController" customModule="PALGO" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EjI-at-V0d"/>
-                        <viewControllerLayoutGuide type="bottom" id="gGv-iS-2Qj"/>
+                        <viewControllerLayoutGuide type="top" id="odX-Td-9Y1"/>
+                        <viewControllerLayoutGuide type="bottom" id="ecl-c3-nCp"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qxg-fB-x3n">
+                    <view key="view" contentMode="scaleToFill" id="dXa-9B-7wq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
@@ -54,9 +53,9 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="l3V-U9-M4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYh-nN-pWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907.5" y="316.5"/>
+            <point key="canvasLocation" x="878.5" y="316.5"/>
         </scene>
     </scenes>
 </document>
