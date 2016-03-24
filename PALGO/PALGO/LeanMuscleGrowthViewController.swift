@@ -14,7 +14,7 @@ class LeanMuscleGrowthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let requestURL: NSURL = NSURL(string: "http://api.v3.factual.com/t/products-cpg-nutrition?q=whey%20protein%20isolate&select=brand,calories,sodium,potassium&limit=20&KEY=ayw9U0g5JYKAFasWFjeHSEEeBMfTtDoncebQ7gOM")!
+        let requestURL: NSURL = NSURL(string: "http://api.v3.factual.com/t/products-cpg-nutrition?q=whey%20protein%20isolate&select=avg_price,brand,calories,sodium,potassium&limit=20&KEY=ayw9U0g5JYKAFasWFjeHSEEeBMfTtDoncebQ7gOM")!
         let urlRequest: NSMutableURLRequest = NSMutableURLRequest(URL: requestURL)
         let session = NSURLSession.sharedSession()
         
@@ -31,6 +31,7 @@ class LeanMuscleGrowthViewController: UIViewController {
                     let json : NSDictionary = try NSJSONSerialization.JSONObjectWithData(data!, options:.AllowFragments) as! NSDictionary
                     
                     let products = json["response"]!["data"]!
+                    print(products)
                     
                     
                 }catch {
