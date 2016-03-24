@@ -9,6 +9,8 @@
 import UIKit
 
 class LeanMuscleGrowthViewController: UIViewController {
+    
+    var secondLayer : Array<NSDictionary> = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +30,8 @@ class LeanMuscleGrowthViewController: UIViewController {
                     
                     let json : NSDictionary = try NSJSONSerialization.JSONObjectWithData(data!, options:.AllowFragments) as! NSDictionary
                     
-                    print(json["response"]!["data"]!![1])
+                    let products = json["response"]!["data"]!
+                    
                     
                 }catch {
                     print("Error with Json: \(error)")
