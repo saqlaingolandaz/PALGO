@@ -28,7 +28,7 @@ class LeanMuscleGrowthViewController: UIViewController {
                     
                     let json : NSDictionary = try NSJSONSerialization.JSONObjectWithData(data!, options:.AllowFragments) as! NSDictionary
                     
-                    print(json)
+                    print(json["response"]!["data"]!![1])
                     
                 }catch {
                     print("Error with Json: \(error)")
