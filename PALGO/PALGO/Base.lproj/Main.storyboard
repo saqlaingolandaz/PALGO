@@ -25,6 +25,21 @@
                                     <segue destination="4pf-aD-DRi" kind="show" id="Xe8-CO-s5u"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4e-gT-ohB">
+                                <rect key="frame" x="117" y="123" width="141" height="30"/>
+                                <animations/>
+                                <state key="normal" title="General Workout"/>
+                                <connections>
+                                    <segue destination="1TE-0t-GPt" kind="show" id="5pt-f1-Rzb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goal?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQM-te-5x1">
+                                <rect key="frame" x="161" y="28" width="53" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -35,6 +50,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="379.5" y="316.5"/>
+        </scene>
+        <!--General Workout View Controller-->
+        <scene sceneID="MUv-Rm-tT7">
+            <objects>
+                <viewController id="1TE-0t-GPt" customClass="GeneralWorkoutViewController" customModule="PALGO" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6yK-ys-dWf"/>
+                        <viewControllerLayoutGuide type="bottom" id="oVF-eo-EAc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v94-Yj-qqn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hHq-fr-IfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842.5" y="416.5"/>
         </scene>
         <!--Lean Muscle Growth View Controller-->
         <scene sceneID="tTw-dw-9h0">
@@ -55,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WYh-nN-pWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="878.5" y="316.5"/>
+            <point key="canvasLocation" x="842.5" y="-314.5"/>
         </scene>
     </scenes>
 </document>
