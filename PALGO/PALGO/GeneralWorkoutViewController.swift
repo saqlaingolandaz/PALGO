@@ -10,22 +10,31 @@ import UIKit
 
 class GeneralWorkoutViewController: UIViewController {
     
-    var contents : NSString = ""
+    var contents : NSString = "";
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-//        if let filepath = NSBundle.mainBundle().pathForResource("test", ofType: "txt") {
-//            do {
-//                let contents = try NSString(contentsOfFile: filepath, usedEncoding: nil) as String
-//                print(contents)
-//            } catch {
-//                print("doesn't work")
-//                // contents could not be loaded
-//            }
-//        } else {
-//            // example.txt not found!
-//        }
+        if let filepath = NSBundle.mainBundle().pathForResource("Untitled", ofType: "txt") {
+            do {
+                contents = try NSString(contentsOfFile: filepath, usedEncoding: nil) as String
+                print("awesome")
+            } catch {
+                // contents could not be loaded
+                print("Content can't be loaded")
+            }
+        } else {
+            // example.txt not found!
+            print("File not found")
+        }
+        
+        let lines : [String] = contents.componentsSeparatedByString("\n")
+        let lines2 = lines[8].componentsSeparatedByString(",") as Array
+        var price : Float = Float(lines2[1])!
+        print(lines.count)
+        print(price)
+        
     }
+
+        
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

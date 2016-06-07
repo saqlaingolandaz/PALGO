@@ -1,0 +1,9 @@
+tera’s whey,21.99,2,12,110,15,2,1,50,45,200,5,1,2,20,x,x,C,x
+Designer Protein Designer Whey French Vanilla,22.99,1,32,100,20,2,1,60,60,100,6,3,2,18,x,x,BC,x
+Jay Robb WHEY PROTEIN-Vanilla,26.99,1,11,110,0,0,0,0,150,390,1,0,0,25,30,2.518,I,x
+Universal Nutrition Animal Whey - Chocolate,29.57,1,27,125,9,1,0.5,35,110,x,4,2,2,25,150,x,MFBIC,x
+Dymatize ISO 100 - Strawberry,29.99,1,25,110,5,0,0,5,90,160,1,0,0,25,x,2.767,IH,x
+Nature's Best Isopure Low Carb - Creamy Vanilla,29.99,2,7,210,10,1,0.5,5,320,750,0,0,0,50,x,3.094,I,x
+IRONMAN Endurance Optimized Whey Protein - Swiss Chocolate,34.99,1,20,190,30,4,2,80,150,x,8,1,5,30,x,x,BCI,x
+Monster Isolate - Chocolate,34.99,1,29,130,15,1.5,0,10,80,500,4,1,1,25,100,28,I,x
+Performix Pro Whey+,34.99,1,28,130,30,3.5,1,55,180,150,4,0,3,22,60,x,BCIH,x
