@@ -11,12 +11,14 @@ import UIKit
 class GeneralWorkoutViewController: UIViewController {
     
     var contents : NSString = "";
+    var masterArray : [[String]] = [];
+    var names : [String] = [];
+    var costs : [String] = [];
     
     override func viewDidLoad() {
         if let filepath = NSBundle.mainBundle().pathForResource("Untitled", ofType: "txt") {
             do {
                 contents = try NSString(contentsOfFile: filepath, usedEncoding: nil) as String
-                print("awesome")
             } catch {
                 // contents could not be loaded
                 print("Content can't be loaded")
@@ -27,10 +29,18 @@ class GeneralWorkoutViewController: UIViewController {
         }
         
         let lines : [String] = contents.componentsSeparatedByString("\n")
-        let lines2 = lines[8].componentsSeparatedByString(",") as Array
-        var price : Float = Float(lines2[1])!
-        print(lines.count)
-        print(price)
+        for(var i = 0; i < lines.count; i++) {
+            masterArray.append(lines[i].componentsSeparatedByString(",") as Array)
+            names.append(masterArray[i][0])
+            costs.append(masterArray[i][1])
+        }
+        print(masterArray)
+        print(names)
+        print(costs)
+
+        
+//        var price : Float = Float(lines2[1])!
+
         
     }
 
