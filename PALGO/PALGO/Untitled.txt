@@ -16,18 +16,18 @@ Universal Nutrition Ultra Iso Whey Vanilla Shake - 2 lbs,41.72,1,10,88,2,0,0,1.5
 Pro Supps PS Isolate - Vanilla,41.99,1,38,90,0,0,0,12,95,82,0,0,0,20,70,x,I,x
 About Time SDC Nutrition SPLASH Whey Isolate Vanilla Shake,42.99,1,32,100,0,0,0,1,41,83,1,0,0,25,250,2.616,I,x
 GNC Pro Performance 100% Whey Protein- Chocolate Supreme,44.99,1,31,140,20,2,1,65,70,330,6,1,2,24,x,2.498,BCI,x
-Reaction Nutrition Pro Action Whey Protein - Vanilla Bean,44.99,1,32,118,7,0,0,35,97,218,4,0,2,22,x,x,MIH,x
+Reaction Nutrition Pro Action Whey Protein - Vanilla Bean,45,1,32,118,7,0,0,35,97,218,4,0,2,22,x,x,MIH,x
 ULTIMATE NUTRITION ISO Sensation 93 - Vanilla Bean,45.03,1,28,130,0,0,0,2,50,x,1,0,0,30,160,1.86,I,x
 Bodylogix Natural Whey - Natural Vanilla Bean,45.99,1,28,120,20,2,0.5,60,65,x,3,0,1,24,0,x,BCIH,x
-Cellucor COR-Performance Whey Protein - Molten Chocolate,46.99,1,26,120,10,1.5,0.5,35,190,x,4,1,1,25,x,x,BIC,x
+Cellucor COR-Performance Whey Protein - Molten Chocolate,46.98,1,26,120,10,1.5,0.5,35,190,x,4,1,1,25,x,x,BIC,x
 BPI SPORTS WHEY HD - Strawberry Cake,46.99,1,25,150,25,3,1.5,95,120,x,4,0,2,25,x,x,BC,x
 BPI SPORTS ISO HD - Cookies and Cream,48.99,1,23,130,10,1,0.5,20,90,140,3,0,1,25,x,x,MIH,x
 Cutler Nutrition TOTAL PROTEIN - Creamy Vanilla,48.99,1,30,130,20,2.5,1.5,80,80,x,5,0,3,22,250,x,BC,x
 Revolution Nutrition Whey Protein Punch,49.83,1,25,120,0,0,0,x,110,320,8,1,2,22,100,x,MIC,x
-MuscleTech Nitro Tech - Vanilla,49.99,1,25,140,15,1.5,0.5,30,160,x,1,x,1,30,100,x,I,x
+MuscleTech Nitro Tech - Vanilla,49.98,1,25,140,15,1.5,0.5,30,160,x,1,x,1,30,100,x,I,x
 MuscleTech Platinum 100% ISO-WHEY - Vanilla Ice Cream,49.99,1,26,120,5,0.5,0,5,105,x,2,x,1,25,118,x,BIH,x
-AST Sports Science VP2 Hydrolyzed Whey Protein Isolate - Creamy Vanilla,49.99,1,32,110,5,0.5,0,5,70,130,3,0,0,23,100,x,IH,x
-Allmax Nutrition IsoNatural - Unflavored,54.99,1,30,115,0,0,0,0,45,150,1,0,0,28,150,3.189,I,x
+AST Sports Science VP2 Hydrolyzed Whey Protein Isolate - Creamy Vanilla,50,1,32,110,5,0.5,0,5,70,130,3,0,0,23,100,x,IH,x
+Allmax Nutrition IsoNatural - Unflavored,54.98,1,30,115,0,0,0,0,45,150,1,0,0,28,150,3.189,I,x
 SDC Nutrition About Time-Chocolate,54.99,1,32,101,1,0,0,1,41,151,0,0,0,24,115,x,MFI,x
 Revolution Nutrition Whey Isolate Splash - Blue Raspberry,55.99,1,23,120,0,0,0,x,x,150,6,1,0,24,x,x,MHI,x
 AboutTime Whey Protein Isolate - Unflavored,59.99,1,32,100,0,0,0,1,41,83,1,0,0,25,x,2.616,I,x
@@ -39,7 +39,7 @@ GNC Pro Performance AMP Amplified Wheybolic Extreme 60 - Vanilla,76.99,3,17,280,
 Dymatize Nutrition ISO100 - Gourmet Chocolate,79.99,1,73,110,5,0.5,0,5,100,280,2,1,1,25,x,2.7,IH,x
 MuscleTech Platinum 100% ISO-WHEY - Vanilla Ice Cream,84.99,1,48,120,5,0.5,0,5,105,x,2,x,1,25,118,x,BIH,x
 GNC Pro Performance AMP Amplified Wheybolic Extreme 60 Power - French Vanilla,89.99,1,45,100,10,1,0.5,10,100,380,3,x,1,20,100,3.33,BIH,x
-BPI SPORTS WHEY-HD - Vanilla Caramel,89.99,1,57,150,25,3,1.5,95,120,x,4,0,2,25,x,x,BC,x
+BPI SPORTS WHEY-HD - Vanilla Caramel,90,1,57,150,25,3,1.5,95,120,x,4,0,2,25,x,x,BC,x
 MuscleTech PLATINUM 100% WHEY - Vanilla Cake,92.99,1,67,130,15,1.5,1,55,120,x,4,x,2,24,375,2.453,BIP,x
 MuscleTech Nitro Tech - Vanilla,93.99,1,50,140,15,1.5,0.5,30,160,x,1,x,1,30,100,x,I,x
 Optimum Nutrition Gold Standard 100% Whey - French Vanilla Creme,99.99,1,73,110,10,1,0.5,40,130,x,2,x,2,24,x,5,BICP,x

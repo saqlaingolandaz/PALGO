@@ -15,9 +15,9 @@ class GeneralWorkoutViewController: UIViewController {
     var names : [String] = [];
     var costs : [Float] = [];
     
-    var cheap : [Float] = [];
-    var medium : [Float] = [];
-    var expensive : [Float] = [];
+    var cheap : [Int] = [];
+    var medium : [Int] = [];
+    var expensive : [Int] = [];
     
     
     override func viewDidLoad() {
@@ -42,7 +42,6 @@ class GeneralWorkoutViewController: UIViewController {
         //print(masterArray)
         //print(names)
         print(costs)
-        print(costs.indexOf(21.99))
 
         
 //        var price : Float = Float(lines2[1])!
@@ -60,22 +59,22 @@ class GeneralWorkoutViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
         if (segue.identifier == "one") {
             for(var i = 0; i < costs.count; i++) {
-                if(costs[i] <= 39.99) {
-                    var temp = Float(costs.indexOf(costs[i])!)
+                if(costs[i] > 10.0 && costs[i] < 30.0) {
+                    var temp = Int(costs.indexOf(costs[i])!)
                     cheap.append(temp)
                 }
             }
         } else if (segue.identifier == "two") {
             for(var i = 0; i < costs.count; i++) {
                 if(costs[i] > 40.0 && costs[i] < 60.0) {
-                    var temp = Float(costs.indexOf(costs[i])!)
+                    var temp = Int(costs.indexOf(costs[i])!)
                     medium.append(temp)
                 }
             }
         } else if (segue.identifier == "three") {
             for(var i = 0; i < costs.count; i++) {
                 if(costs[i] > 60.0) {
-                    var temp = Float(costs.indexOf(costs[i])!)
+                    var temp = Int(costs.indexOf(costs[i])!)
                     expensive.append(temp)
                 }
             }
