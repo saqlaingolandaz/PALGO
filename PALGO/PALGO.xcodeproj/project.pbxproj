@@ -15,6 +15,7 @@
 		2B7A51691CA39741006138B1 /* LeanMuscleGrowthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A51681CA39741006138B1 /* LeanMuscleGrowthViewController.swift */; };
 		2BDA980A1D05E724009E5C9C /* GeneralWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA98091D05E724009E5C9C /* GeneralWorkoutViewController.swift */; };
 		2BDF24991D0751B300B14DB5 /* Untitled.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF24981D0751B300B14DB5 /* Untitled.txt */; };
+		2BDF249B1D098FE400B14DB5 /* General2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF249A1D098FE400B14DB5 /* General2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2B7A51681CA39741006138B1 /* LeanMuscleGrowthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeanMuscleGrowthViewController.swift; sourceTree = "<group>"; };
 		2BDA98091D05E724009E5C9C /* GeneralWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralWorkoutViewController.swift; sourceTree = "<group>"; };
 		2BDF24981D0751B300B14DB5 /* Untitled.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Untitled.txt; sourceTree = "<group>"; };
+		2BDF249A1D098FE400B14DB5 /* General2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				2B7A51561CA38134006138B1 /* ViewController.swift */,
 				2B7A51681CA39741006138B1 /* LeanMuscleGrowthViewController.swift */,
 				2BDA98091D05E724009E5C9C /* GeneralWorkoutViewController.swift */,
+				2BDF249A1D098FE400B14DB5 /* General2.swift */,
 				2B7A51581CA38134006138B1 /* Main.storyboard */,
 				2BDF24981D0751B300B14DB5 /* Untitled.txt */,
 				2B7A515B1CA38135006138B1 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B7A51691CA39741006138B1 /* LeanMuscleGrowthViewController.swift in Sources */,
+				2BDF249B1D098FE400B14DB5 /* General2.swift in Sources */,
 				2BDA980A1D05E724009E5C9C /* GeneralWorkoutViewController.swift in Sources */,
 				2B7A51571CA38134006138B1 /* ViewController.swift in Sources */,
 				2B7A51551CA38134006138B1 /* AppDelegate.swift in Sources */,

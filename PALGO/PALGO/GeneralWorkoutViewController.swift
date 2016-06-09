@@ -57,6 +57,7 @@ class GeneralWorkoutViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+        var svc = segue!.destinationViewController as! General2;
         if (segue.identifier == "one") {
             for(var i = 0; i < costs.count; i++) {
                 if(costs[i] > 10.0 && costs[i] < 30.0) {
@@ -64,6 +65,7 @@ class GeneralWorkoutViewController: UIViewController {
                     cheap.append(temp)
                 }
             }
+            svc.masterArray2 = masterArray
         } else if (segue.identifier == "two") {
             for(var i = 0; i < costs.count; i++) {
                 if(costs[i] > 40.0 && costs[i] < 60.0) {
@@ -71,6 +73,7 @@ class GeneralWorkoutViewController: UIViewController {
                     medium.append(temp)
                 }
             }
+            svc.masterArray2 = masterArray
         } else if (segue.identifier == "three") {
             for(var i = 0; i < costs.count; i++) {
                 if(costs[i] > 60.0) {
@@ -78,6 +81,7 @@ class GeneralWorkoutViewController: UIViewController {
                     expensive.append(temp)
                 }
             }
+            svc.masterArray2 = masterArray
         }
     }
     

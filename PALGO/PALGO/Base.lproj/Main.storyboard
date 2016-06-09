@@ -70,8 +70,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP9-1H-8pO">
+                                <rect key="frame" x="164" y="134" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="$"/>
+                                <connections>
+                                    <action selector="oneClicked:" destination="1TE-0t-GPt" eventType="touchUpInside" id="0gY-N7-02r"/>
+                                    <segue destination="XpM-w2-u3i" kind="show" identifier="one" id="sSk-Xu-BzU"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KG-6o-kVs">
-                                <rect key="frame" x="164" y="201" width="46" height="30"/>
+                                <rect key="frame" x="164" y="238" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="$$"/>
                                 <connections>
@@ -80,21 +89,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODf-b6-FDb">
-                                <rect key="frame" x="164" y="309" width="46" height="30"/>
+                                <rect key="frame" x="164" y="362" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="$$$"/>
                                 <connections>
                                     <action selector="threeClicked:" destination="1TE-0t-GPt" eventType="touchUpInside" id="jtd-Hs-gEJ"/>
                                     <segue destination="XpM-w2-u3i" kind="show" identifier="three" id="7GK-vn-u3m"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP9-1H-8pO">
-                                <rect key="frame" x="164" y="101" width="46" height="30"/>
-                                <animations/>
-                                <state key="normal" title="$"/>
-                                <connections>
-                                    <action selector="oneClicked:" destination="1TE-0t-GPt" eventType="touchUpInside" id="0gY-N7-02r"/>
-                                    <segue destination="XpM-w2-u3i" kind="show" identifier="one" id="sSk-Xu-BzU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="842.5" y="416.5"/>
         </scene>
-        <!--View Controller-->
+        <!--General2-->
         <scene sceneID="VN0-je-kxF">
             <objects>
-                <viewController id="XpM-w2-u3i" sceneMemberID="viewController">
+                <viewController id="XpM-w2-u3i" customClass="General2" customModule="PALGO" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k0I-Og-vHR"/>
                         <viewControllerLayoutGuide type="bottom" id="oRF-lx-e0K"/>
@@ -131,16 +131,78 @@
                                 <rect key="frame" x="164" y="133" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="1-3"/>
+                                <connections>
+                                    <action selector="oneToThreeClicked:" destination="XpM-w2-u3i" eventType="touchUpInside" id="jeu-6b-Vhp"/>
+                                    <segue destination="nDl-6T-leR" kind="show" identifier="oneToThree" id="fGb-GZ-L8U"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbL-HN-Iby">
                                 <rect key="frame" x="164" y="244" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="3-5"/>
+                                <connections>
+                                    <action selector="threeToFiveClicked:" destination="XpM-w2-u3i" eventType="touchUpInside" id="Qgy-Yj-AlE"/>
+                                    <segue destination="nDl-6T-leR" kind="show" identifier="threeToFive" id="5uV-3Q-sou"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-3l-aKx">
                                 <rect key="frame" x="164" y="358" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="5-7"/>
+                                <connections>
+                                    <action selector="fiveToSevenClicked:" destination="XpM-w2-u3i" eventType="touchUpInside" id="AcA-Vt-5Dk"/>
+                                    <segue destination="nDl-6T-leR" kind="show" identifier="fiveToSeven" id="RI8-sv-477"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="fiveToSevenButton" destination="twJ-3l-aKx" id="T5b-GC-Sq9"/>
+                        <outlet property="oneToThreeButton" destination="IPd-Rq-GAZ" id="J1e-lK-tGr"/>
+                        <outlet property="threeToFiveButton" destination="VbL-HN-Iby" id="pXS-SZ-XCl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2GN-wH-1KN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1327.5" y="416.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mgW-t8-j4L">
+            <objects>
+                <viewController id="nDl-6T-leR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gXO-co-UBM"/>
+                        <viewControllerLayoutGuide type="bottom" id="ak7-RK-hPB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GtC-Ou-dA2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Describe your workout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLy-CF-Qyx">
+                                <rect key="frame" x="81" y="28" width="212" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7S-fq-Y6a">
+                                <rect key="frame" x="125" y="128" width="124" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Weights Training"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Co-aa-YjM">
+                                <rect key="frame" x="164" y="246" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Cardio"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ota-PL-tSe">
+                                <rect key="frame" x="164" y="363" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Both"/>
                             </button>
                         </subviews>
                         <animations/>
@@ -149,9 +211,9 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2GN-wH-1KN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pyl-gh-SX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1327.5" y="416.5"/>
+            <point key="canvasLocation" x="1807.5" y="416.5"/>
         </scene>
         <!--Lean Muscle Growth View Controller-->
         <scene sceneID="tTw-dw-9h0">
@@ -177,5 +239,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="rUJ-et-9Sv"/>
+        <segue reference="fGb-GZ-L8U"/>
     </inferredMetricsTieBreakers>
 </document>
