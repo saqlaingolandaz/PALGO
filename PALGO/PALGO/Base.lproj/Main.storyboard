@@ -170,10 +170,10 @@
             </objects>
             <point key="canvasLocation" x="1327.5" y="416.5"/>
         </scene>
-        <!--View Controller-->
+        <!--General3-->
         <scene sceneID="mgW-t8-j4L">
             <objects>
-                <viewController id="nDl-6T-leR" sceneMemberID="viewController">
+                <viewController id="nDl-6T-leR" customClass="General3" customModule="PALGO" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gXO-co-UBM"/>
                         <viewControllerLayoutGuide type="bottom" id="ak7-RK-hPB"/>
@@ -193,16 +193,28 @@
                                 <rect key="frame" x="125" y="128" width="124" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Weights Training"/>
+                                <connections>
+                                    <action selector="weightsClicked:" destination="nDl-6T-leR" eventType="touchUpInside" id="139-Bj-XqF"/>
+                                    <segue destination="82J-Am-kiw" kind="show" identifier="weights" id="Tk5-sj-iA2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Co-aa-YjM">
                                 <rect key="frame" x="164" y="246" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Cardio"/>
+                                <connections>
+                                    <action selector="cardioClicked:" destination="nDl-6T-leR" eventType="touchUpInside" id="zim-in-M9U"/>
+                                    <segue destination="82J-Am-kiw" kind="show" identifier="cardio" id="een-lR-Diz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ota-PL-tSe">
                                 <rect key="frame" x="164" y="363" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Both"/>
+                                <connections>
+                                    <action selector="bothClicked:" destination="nDl-6T-leR" eventType="touchUpInside" id="5qu-gr-n6O"/>
+                                    <segue destination="82J-Am-kiw" kind="show" identifier="both" id="uPK-iL-imL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -210,10 +222,36 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="both" destination="ota-PL-tSe" id="d1y-DI-IDW"/>
+                        <outlet property="cardio" destination="6Co-aa-YjM" id="AnC-tb-2Fq"/>
+                        <outlet property="weightsTraining" destination="s7S-fq-Y6a" id="k35-SR-ULW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pyl-gh-SX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1807.5" y="416.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HRY-wN-VXc">
+            <objects>
+                <viewController id="82J-Am-kiw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jeH-Yg-jsL"/>
+                        <viewControllerLayoutGuide type="bottom" id="ftd-80-r9l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nSu-E2-mXd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAY-21-44Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2299.5" y="416.5"/>
         </scene>
         <!--Lean Muscle Growth View Controller-->
         <scene sceneID="tTw-dw-9h0">
@@ -240,5 +278,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="rUJ-et-9Sv"/>
         <segue reference="fGb-GZ-L8U"/>
+        <segue reference="uPK-iL-imL"/>
     </inferredMetricsTieBreakers>
 </document>

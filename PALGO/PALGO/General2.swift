@@ -26,6 +26,20 @@ class General2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+        var svc = segue!.destinationViewController as! General3;
+        if (segue.identifier == "oneToThree") {
+            svc.previous = "1-3"
+            svc.masterArray3 = masterArray2
+        } else if (segue.identifier == "threeToFive") {
+            svc.previous = "3-5"
+            svc.masterArray3 = masterArray2
+        } else if (segue.identifier == "fiveToSeven") {
+            svc.previous = "5-7"
+            svc.masterArray3 = masterArray2
+        }
+    }
+    
     
     @IBAction func oneToThreeClicked(sender: AnyObject) {
         whatClicked = "1-3"

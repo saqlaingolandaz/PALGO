@@ -9,9 +9,16 @@
 import UIKit
 
 class General3: UIViewController {
+    
+    var masterArray3 : [[String]] = []
+    @IBOutlet weak var weightsTraining: UIButton!
+    @IBOutlet weak var cardio: UIButton!
+    @IBOutlet weak var both: UIButton!
+    var previous : String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(previous)
 
         // Do any additional setup after loading the view.
     }
@@ -19,6 +26,18 @@ class General3: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    @IBAction func weightsClicked(sender: AnyObject) {
+    }
+    
+    
+    @IBAction func cardioClicked(sender: AnyObject) {
+    }
+    
+    
+    @IBAction func bothClicked(sender: AnyObject) {
     }
     
 
