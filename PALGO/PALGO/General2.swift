@@ -43,19 +43,16 @@ class General2: UIViewController {
     
     @IBAction func oneToThreeClicked(sender: AnyObject) {
         whatClicked = "1-3"
-        print("1-3")
         performSegueWithIdentifier("oneToThree", sender: self)
     }
     
     @IBAction func threeToFiveClicked(sender: AnyObject) {
         whatClicked = "3-5"
-        print("3-5")
         performSegueWithIdentifier("threeToFive", sender: self)
     }
 
     @IBAction func fiveToSevenClicked(sender: AnyObject) {
         whatClicked = "5-7"
-        print("5-7")
         performSegueWithIdentifier("fiveToSeven", sender: self)
     }
     

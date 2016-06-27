@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B44C8761D214F44001BE70C /* General4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44C8751D214F44001BE70C /* General4.swift */; };
 		2B7A51551CA38134006138B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A51541CA38134006138B1 /* AppDelegate.swift */; };
 		2B7A51571CA38134006138B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A51561CA38134006138B1 /* ViewController.swift */; };
 		2B7A515A1CA38134006138B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7A51581CA38134006138B1 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B44C8751D214F44001BE70C /* General4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General4.swift; sourceTree = "<group>"; };
 		2B7A51511CA38134006138B1 /* PALGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PALGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7A51541CA38134006138B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B7A51561CA38134006138B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				2BDA98091D05E724009E5C9C /* GeneralWorkoutViewController.swift */,
 				2BDF249A1D098FE400B14DB5 /* General2.swift */,
 				2BDF249C1D10339F00B14DB5 /* General3.swift */,
+				2B44C8751D214F44001BE70C /* General4.swift */,
 				2B7A51581CA38134006138B1 /* Main.storyboard */,
 				2BDF24981D0751B300B14DB5 /* Untitled.txt */,
 				2B7A515B1CA38135006138B1 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 				2B7A51691CA39741006138B1 /* LeanMuscleGrowthViewController.swift in Sources */,
 				2BDF249B1D098FE400B14DB5 /* General2.swift in Sources */,
 				2BDF249D1D10339F00B14DB5 /* General3.swift in Sources */,
+				2B44C8761D214F44001BE70C /* General4.swift in Sources */,
 				2BDA980A1D05E724009E5C9C /* GeneralWorkoutViewController.swift in Sources */,
 				2B7A51571CA38134006138B1 /* ViewController.swift in Sources */,
 				2B7A51551CA38134006138B1 /* AppDelegate.swift in Sources */,

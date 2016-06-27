@@ -232,10 +232,10 @@
             </objects>
             <point key="canvasLocation" x="1807.5" y="416.5"/>
         </scene>
-        <!--View Controller-->
+        <!--General4-->
         <scene sceneID="HRY-wN-VXc">
             <objects>
-                <viewController id="82J-Am-kiw" sceneMemberID="viewController">
+                <viewController id="82J-Am-kiw" customClass="General4" customModule="PALGO" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jeH-Yg-jsL"/>
                         <viewControllerLayoutGuide type="bottom" id="ftd-80-r9l"/>
@@ -243,6 +243,30 @@
                     <view key="view" contentMode="scaleToFill" id="nSu-E2-mXd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many meals do you eat per day?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRO-7r-Smh">
+                                <rect key="frame" x="16" y="34" width="336" height="24"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIZ-a3-x9Q">
+                                <rect key="frame" x="169" y="118" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="&lt; 3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oq-Na-Vqn">
+                                <rect key="frame" x="172" y="246" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6m-rc-bMV">
+                                <rect key="frame" x="172" y="365" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="&gt; 3"/>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
