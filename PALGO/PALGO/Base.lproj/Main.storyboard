@@ -255,16 +255,28 @@
                                 <rect key="frame" x="169" y="118" width="30" height="30"/>
                                 <animations/>
                                 <state key="normal" title="&lt; 3"/>
+                                <connections>
+                                    <action selector="lessThanThreeClicked:" destination="82J-Am-kiw" eventType="touchUpInside" id="26a-dZ-NsI"/>
+                                    <segue destination="epw-fs-MwO" kind="show" identifier="lessThanThree" id="6vs-sS-mEI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oq-Na-Vqn">
                                 <rect key="frame" x="172" y="246" width="30" height="30"/>
                                 <animations/>
                                 <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="threeClicked:" destination="82J-Am-kiw" eventType="touchUpInside" id="8vI-0d-eWu"/>
+                                    <segue destination="epw-fs-MwO" kind="show" identifier="three" id="bbr-mR-YWp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6m-rc-bMV">
                                 <rect key="frame" x="172" y="365" width="30" height="30"/>
                                 <animations/>
                                 <state key="normal" title="&gt; 3"/>
+                                <connections>
+                                    <action selector="moreThanThreeClicked:" destination="82J-Am-kiw" eventType="touchUpInside" id="LWZ-wU-WEm"/>
+                                    <segue destination="epw-fs-MwO" kind="show" identifier="moreThanThree" id="zhu-gF-erL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -272,10 +284,36 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="lessThanThree" destination="eIZ-a3-x9Q" id="gep-AI-sq7"/>
+                        <outlet property="moreThanThree" destination="B6m-rc-bMV" id="dgA-iw-int"/>
+                        <outlet property="three" destination="5oq-Na-Vqn" id="lGp-gy-Xgg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAY-21-44Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2299.5" y="416.5"/>
+        </scene>
+        <!--Final General-->
+        <scene sceneID="o9P-Hg-N4u">
+            <objects>
+                <viewController id="epw-fs-MwO" customClass="FinalGeneral" customModule="PALGO" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="30s-iy-loy"/>
+                        <viewControllerLayoutGuide type="bottom" id="jmO-Yy-Ebk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Uo-54-5hc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kef-Tg-7ey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2785.5" y="416.5"/>
         </scene>
         <!--Lean Muscle Growth View Controller-->
         <scene sceneID="tTw-dw-9h0">
@@ -300,8 +338,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rUJ-et-9Sv"/>
-        <segue reference="fGb-GZ-L8U"/>
         <segue reference="uPK-iL-imL"/>
+        <segue reference="fGb-GZ-L8U"/>
+        <segue reference="rUJ-et-9Sv"/>
+        <segue reference="zhu-gF-erL"/>
     </inferredMetricsTieBreakers>
 </document>

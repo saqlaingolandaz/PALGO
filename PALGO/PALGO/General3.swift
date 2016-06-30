@@ -32,12 +32,15 @@ class General3: UIViewController {
         var svc = segue!.destinationViewController as! General4;
         if (segue.identifier == "weights") {
             svc.previous = "1-3"
+            svc.previous2 = "weights"
             svc.masterArray4 = masterArray3
         } else if (segue.identifier == "cardio") {
             svc.previous = "3-5"
+            svc.previous2 = "cardio"
             svc.masterArray4 = masterArray3
         } else if (segue.identifier == "both") {
             svc.previous = "5-7"
+            svc.previous2 = "both"
             svc.masterArray4 = masterArray3
         }
     }
@@ -45,19 +48,16 @@ class General3: UIViewController {
     
     @IBAction func weightsClicked(sender: AnyObject) {
         performSegueWithIdentifier("weights", sender: self)
-        print("weights")
     }
     
     
     @IBAction func cardioClicked(sender: AnyObject) {
         performSegueWithIdentifier("cardio", sender: self)
-        print("cardio")
     }
     
     
     @IBAction func bothClicked(sender: AnyObject) {
         performSegueWithIdentifier("both", sender: self)
-        print("both")
     }
     
 
