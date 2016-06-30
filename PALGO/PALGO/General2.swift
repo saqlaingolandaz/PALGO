@@ -15,6 +15,7 @@ class General2: UIViewController {
     @IBOutlet weak var threeToFiveButton: UIButton!
     @IBOutlet weak var fiveToSevenButton: UIButton!
     var whatClicked : String = ""
+    var moneyArray : [Int] = []
     override func viewDidLoad() {
         super.viewDidLoad()
 

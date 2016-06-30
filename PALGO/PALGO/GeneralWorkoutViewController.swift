@@ -65,6 +65,7 @@ class GeneralWorkoutViewController: UIViewController {
                     cheap.append(temp)
                 }
             }
+            svc.moneyArray = cheap
             svc.masterArray2 = masterArray
         } else if (segue.identifier == "two") {
             for(var i = 0; i < costs.count; i++) {
@@ -73,6 +74,7 @@ class GeneralWorkoutViewController: UIViewController {
                     medium.append(temp)
                 }
             }
+            svc.moneyArray = medium
             svc.masterArray2 = masterArray
         } else if (segue.identifier == "three") {
             for(var i = 0; i < costs.count; i++) {
@@ -81,24 +83,22 @@ class GeneralWorkoutViewController: UIViewController {
                     expensive.append(temp)
                 }
             }
+            svc.moneyArray = expensive
             svc.masterArray2 = masterArray
         }
     }
     
     
     @IBAction func oneClicked(sender: AnyObject) {
-        print(cheap)
         performSegueWithIdentifier("one", sender: self)
     }
 
     @IBAction func twoClicked(sender: AnyObject) {
-        print(medium)
         performSegueWithIdentifier("two", sender: self)
     }
     
     
     @IBAction func threeClicked(sender: AnyObject) {
-        print(expensive)
         performSegueWithIdentifier("three", sender: self)
     }
     
