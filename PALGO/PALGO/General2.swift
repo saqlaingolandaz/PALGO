@@ -18,7 +18,7 @@ class General2: UIViewController {
     var moneyArray : [Int] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//        print(moneyArray)
         // Do any additional setup after loading the view.
     }
 
@@ -30,14 +30,17 @@ class General2: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
         var svc = segue!.destinationViewController as! General3;
         if (segue.identifier == "oneToThree") {
-            svc.previous = "1-3"
+            svc.routine = "1-3"
             svc.masterArray3 = masterArray2
+            svc.moneyArray2 = moneyArray
         } else if (segue.identifier == "threeToFive") {
-            svc.previous = "3-5"
+            svc.routine = "3-5"
             svc.masterArray3 = masterArray2
+            svc.moneyArray2 = moneyArray
         } else if (segue.identifier == "fiveToSeven") {
-            svc.previous = "5-7"
+            svc.routine = "5-7"
             svc.masterArray3 = masterArray2
+            svc.moneyArray2 = moneyArray
         }
     }
     

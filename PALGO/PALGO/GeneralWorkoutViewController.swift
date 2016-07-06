@@ -41,7 +41,7 @@ class GeneralWorkoutViewController: UIViewController {
         }
         //print(masterArray)
         //print(names)
-        print(costs)
+//        print(costs)
 
         
 //        var price : Float = Float(lines2[1])!

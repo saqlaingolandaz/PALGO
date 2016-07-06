@@ -14,11 +14,12 @@ class General3: UIViewController {
     @IBOutlet weak var weightsTraining: UIButton!
     @IBOutlet weak var cardio: UIButton!
     @IBOutlet weak var both: UIButton!
-    var previous : String!
+    var routine : String!
+    var moneyArray2 : [Int] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(previous)
+//        print(moneyArray2)
 
         // Do any additional setup after loading the view.
     }
@@ -31,17 +32,20 @@ class General3: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
         var svc = segue!.destinationViewController as! General4;
         if (segue.identifier == "weights") {
-            svc.previous = "1-3"
-            svc.previous2 = "weights"
+            svc.routine = routine
+            svc.workout = "weights"
             svc.masterArray4 = masterArray3
+            svc.moneyArray3 = moneyArray2
         } else if (segue.identifier == "cardio") {
-            svc.previous = "3-5"
-            svc.previous2 = "cardio"
+            svc.routine = routine
+            svc.workout = "cardio"
             svc.masterArray4 = masterArray3
+            svc.moneyArray3 = moneyArray2
         } else if (segue.identifier == "both") {
-            svc.previous = "5-7"
-            svc.previous2 = "both"
+            svc.routine = routine
+            svc.workout = "both"
             svc.masterArray4 = masterArray3
+            svc.moneyArray3 = moneyArray2
         }
     }
     

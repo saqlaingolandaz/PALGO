@@ -11,16 +11,18 @@ import UIKit
 class General4: UIViewController {
     
     var masterArray4 : [[String]] = []
-    var previous : String!
-    var previous2 : String!
+    var routine : String!
+    var workout : String!
     
     @IBOutlet weak var lessThanThree: UIButton!
     @IBOutlet weak var three: UIButton!
     @IBOutlet weak var moreThanThree: UIButton!
+    var moneyArray3 : [Int] = []
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        print(moneyArray3)
 
         // Do any additional setup after loading the view.
     }
@@ -35,12 +37,21 @@ class General4: UIViewController {
         if (segue.identifier == "lessThanThree") {
             svc.meals = "< 3"
             svc.masterArray5 = masterArray4
+            svc.moneyArray4 = moneyArray3
+            svc.routine = routine
+            svc.workout = workout
         } else if (segue.identifier == "three") {
             svc.meals = "3"
             svc.masterArray5 = masterArray4
+            svc.moneyArray4 = moneyArray3
+            svc.routine = routine
+            svc.workout = workout
         } else if (segue.identifier == "moreThanThree") {
             svc.meals = "> 3"
             svc.masterArray5 = masterArray4
+            svc.moneyArray4 = moneyArray3
+            svc.routine = routine
+            svc.workout = workout
         }
     }
     
