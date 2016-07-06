@@ -35,7 +35,13 @@ class FinalGeneral: UIViewController {
             }
         } else if(routine == "3-5" && workout == "weights") {
             for(var i = 0; i < items.count; i++) {
-                if(Int(items[i][9]) < 75  && (Int(items[i][14]) > 20 || Int(items[i][14]) < 30)  && Int(items[i][6]) == 0 && (Int(items[i][15]) > 100 || items[i][15] == "x")) {
+                if(Int(items[i][9]) < 75  && (Int(items[i][14]) > 20 || Int(items[i][14]) < 30)  && Int(items[i][6]) == 0 && (Int(items[i][15]) > 200 || items[i][15] == "x") && (Int(items[i][8]) <= 4 && Int(items[i][8]) >= 2)) {
+                    items2.append(items[i])
+                }
+            }
+        } else if(routine == "5-7" && workout == "weights") {
+            for(var i = 0; i < items.count; i++) {
+                if(Int(items[i][9]) < 50  && (Int(items[i][14]) > 30 || Int(items[i][14]) < 40)  && (Double(items[i][6]) >= 0 || Double(items[i][6]) <= 0.5) && (Int(items[i][15]) > 200 || items[i][15] == "x") && (Int(items[i][8]) <= 5)) {
                     items2.append(items[i])
                 }
             }
