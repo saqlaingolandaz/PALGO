@@ -29,19 +29,37 @@ class FinalGeneral: UIViewController {
 
         if(routine == "1-3" && workout == "weights") {
             for(var i = 0; i < items.count; i++) {
-                if(Int(items[i][9]) < 50  && Int(items[i][14]) > 20 && Int(items[i][6]) == 0 && (Int(items[i][15]) > 100 || items[i][15] == "x")) {
+                if(Double(items[i][9]) < 50  && Double(items[i][14]) > 20 && Double(items[i][6]) == 0 && (Double(items[i][15]) > 100 || items[i][15] == "x")) {
                     items2.append(items[i])
                 }
             }
         } else if(routine == "3-5" && workout == "weights") { //NEED TO ADD MORE!!!!
             for(var i = 0; i < items.count; i++) {
-                if(Int(items[i][9]) < 75  && (Int(items[i][14]) > 20 || Int(items[i][14]) < 30)  && Int(items[i][6]) == 0 && (Int(items[i][15]) > 200 || items[i][15] == "x") && (Int(items[i][8]) <= 4 && Int(items[i][8]) >= 2)) {
+                if(Double(items[i][9]) < 75  && (Double(items[i][14]) > 20 || Double(items[i][14]) < 30)  && Double(items[i][6]) == 0 && (Double(items[i][15]) > 200 || items[i][15] == "x") && (Double(items[i][8]) <= 4 && Double(items[i][8]) >= 2)) {
                     items2.append(items[i])
                 }
             }
-        } else if(routine == "5-7" && workout == "weights") {
+        } else if(routine == "5-7" && workout == "weights") { //NEED TO ADD MORE!!!!
             for(var i = 0; i < items.count; i++) {
-                if(Int(items[i][9]) < 50  && (Int(items[i][14]) > 30 || Int(items[i][14]) < 40)  && (Double(items[i][6]) >= 0 || Double(items[i][6]) <= 0.5) && (Int(items[i][15]) > 200 || items[i][15] == "x") && (Int(items[i][8]) <= 5)) {
+                if(Double(items[i][9]) < 50  && (Double(items[i][14]) > 30 || Double(items[i][14]) < 40)  && (Double(items[i][6]) >= 0 || Double(items[i][6]) <= 0.5) && (Double(items[i][15]) > 200 || items[i][15] == "x") && (Double(items[i][8]) <= 5)) {
+                    items2.append(items[i])
+                }
+            }
+        } else if(routine == "1-3" && workout == "cardio") {
+            for(var i = 0; i < items.count; i++) {
+                if(Double(items[i][11]) < 2  && (Double(items[i][13]) == 0 || items[i][13] == "x")  && Double(items[i][6]) == 0 && (Double(items[i][10]) >= 100)) {
+                    items2.append(items[i])
+                }
+            }
+        } else if(routine == "3-5" && workout == "cardio") {
+            for(var i = 0; i < items.count; i++) {
+                if(Double(items[i][11]) < 3  && (Double(items[i][13]) <= 2 || items[i][13] == "x")  && (Double(items[i][8]) <= 10 || items[i][8] == "x") && (Double(items[i][9]) <= 100 || items[i][9] == "x")) {
+                    items2.append(items[i])
+                }
+            }
+        } else if(routine == "5-7" && workout == "cardio") {
+            for(var i = 0; i < items.count; i++) {
+                if(Double(items[i][11]) < 3  && (Double(items[i][13]) <= 2 || items[i][13] == "x")  && (Double(items[i][8]) <= 10 || items[i][8] == "x") && (Double(items[i][9]) <= 100 || items[i][9] == "x")) {
                     items2.append(items[i])
                 }
             }
