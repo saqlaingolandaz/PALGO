@@ -236,3 +236,14 @@ Bill Phillips Right Complete Protein Shake,32.63,2,12,130,0,0,0,0,210,475,11,3,0
 Olympian Labs Beef Protein,19.21,1,16,110,5,1,0,0,280,140,2,1,2,24,x,112,I,x
 Ronnie Coleman Signature Series Pro-Antium,51.95,1,50,180,25,2.5,1.5,90,135,210,9,1,3,30,150,x,CI,x
 MRM Natural Isolate Whey Protein,28.98,1,30,110,0,0,0,5,90,110,3,0,0,24,x,2987,BI,x
+CytoSport Monster Isolate,34.99,1,30,130,15,1.5,x,10,80,420,3,1,1,25,100,28000,I,x
+SportPharma Just Whey,41.30,1,84,102,15,1.5,1,39,68,155,2,0,1,20,117,8300,BCI,x
+Champion Performance UltraMet,40.18,1,20,280,36,4,2.5,30,360,420,20,0.5,3,41,x,BIC,x
+Ronnie Coleman Signature Series King Whey,54.96,1,73,130,10,1.5,0.5,55,60,160,4,0,2,25,x,x,CI,x
+EPIQ Isolate,49.99,1,50,100,5,0.5,x,10,100,x,3,x,1,20,350,x,IH,x
+Myogenix Myolean 100% Whey Protein,39.99,1,81,120,25,3,1,45,80,x,40,2,20,x,x,BCIH,x
+MRM All Natural Gainer,25.89,3,12,526,88,10,2.5,97,225,360,73,2,15,38,x,x,C,x
+Champion Performance Metabolol II,23.95,2,15,380,30,3,3,10,255,230,60,1,9,21,595,x,BIC,x
+ANS Performance N-PRO,54.99,1,52,140,15,1.5,1,75,130,170,5,1,2,26,x,x,CIH,x
+RIVALS Rival Whey,29.99,1,31,110,10,1,0.5,35,60,x,2,0,1,24,x,x,BICH,x
+Dymatize Pursuit-Rx Whey Protein,32.95,1,22,130,15,1.5,1.5,40,160,115,3,0,2,25,x,x,IC,x
