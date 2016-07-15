@@ -259,8 +259,8 @@ Labrada Jamie Eason Signature Series Peanut Protein,38.24,2,30,190,60,7,1,0,94,4
 NOW Soy Protein Isolate- Non-GMO,10.79,0.33,19,90,10,1,x,x,190,x,x,x,x,20,40,x,VI,x
 Sunwarrior Protein,42.44,1,47,80,0,0,0,0,25,x,2,0,1,17,x,1644,V,x
 Body Fortress Super Advanced Whey Protein,22.54,1,27,130,30,3,2,90,55,95,6,x,2,20,84,x,BCI,x
-Labrada Carb Watchers Lean Body MRP,44.81,1,20,1,20,250,40,4.5,1,25,350,360,12,4,3,40,x,3640,IC,x
-iSatori 100% BIO ACTIVE WHEY,29.99,1,30,140,30,140,30,3.5,2,95,105,x,2,1,25,171,x,CIH,x
+Labrada Carb Watchers Lean Body MRP,44.81,1,20,250,40,4.5,1,25,350,360,12,4,3,40,x,3640,IC,x
+iSatori 100% BIO ACTIVE WHEY,29.99,1,30,140,30,3.5,2,95,105,x,2,x,1,25,171,x,CIH,x
 Sunwarrior Warrier Blend Raw Protein,42.44,1,40,100,15,1,0,0,260,100,1,0,0,20,x,1644,BV,x
 EAS 100% Whey Protein,22.99,2,21,160,25,2.5,1.5,100,160,220,5,1,2,30,x,1770,C,x
 Universal Nutrition Advanced Soy Protein,14.52,1,20,117,9,1,0,x,280,x,0,x,0,27,60,8200,SI,x
