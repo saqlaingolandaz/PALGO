@@ -162,7 +162,6 @@ S.A.N. METAFORCE,36.75,1,67,130,18,2,0.5,0,199,373,2,1,0,26,170,x,HC,x
 Manitoba Harvest Organic HempPro Fiber,9.99,4,15,130,35,4,0.5,0,0,x,14,13,1,11,x,621,HP,x
 Fuel:One Whey Build,37.72,1,27,130,20,2,1.5,60,130,x,3,x,2,24,122,x,BCIH,x
 Black Skull WHEY ZERO,37.49,1,39,86,5,1,x,x,66,110,0,0,0,20,96,x,I,x
-New Whey Nutrition Multi Pro Whey,29.99,1,63,160,35,4,1,45,40,7,1,4,24,143,1811,BCI,x
 Nutrabolics IsoBolic,64.99,1,73,125,9,1,0,45,75,110,4,0,1,25,x,x,IC,x
 Champion Performance Pure Whey Fusion,38.01,1,71,130,15,1.5,1,40,80,170,10,x,5,20,150,2486,C,x
 MHP Maximum Whey,29.99,1,23,170,50,6,3,65,130,200,8,2,2,25,188,x,CI,x
@@ -170,7 +169,7 @@ NOW Whey Protein Concentrate,44.57,1,69,130,20,2,1,50,55,190,3,0,1,24,x,3399,C,x
 MET-Rx Xtreme Size Up,49.99,4,16,600,60,6,4,65,500,1710,79,5,6,60,1345,5154,BC,3
 Healthy ’N Fit Creatine Mass 10,000,29.55,4,7,908,0,0,0,5,174,x,176,3,26,45,x,4212,IH,10
 Vega Clean Protein,34.99,1,15,130,15,2,0,0,350,x,3,1,1,25,x,2025,OHP,x
-Universal Nutrition Uni-Syn,23.75,2.5,15,280,15,x,1.5,1.5,45,240,525,22,1,2,44,x,CI,x
+Universal Nutrition Uni-Syn,23.75,2.5,15,280,15,1.5,1.5,45,240,525,22,1,2,44,x,x,CI,x
 4 Dimension Nutrition Hydro Matrix,47.50,1,45,100,5,0.5,x,30,105,x,1,x,1,24,125,x,H,x
 Human Evolution Pro Maker Hydrolyzed,59.99,1,39,130,5,0,0,6,110,186,1,0,0,30,x,x,H,x
 MUTANT Micellar Casein,54.99,1,52,140,20,2,1,15,50,x,5,0,2,24,x,x,M,x
@@ -270,3 +269,7 @@ Universal Nutrition Ultra Whey Pro,25.17,1,30,116,14,1.5,1,35,65,166,3.5,x,3,22,
 CytoSport Monster Milk,38.87,2,13,280,35,4,1.5,45,180,700,12,2,3,50,700,1000,IC,x
 Labrada Muscle Mass Gainer,34.24,9,8,1290,30,3,2,70,330,300,264,4,23,52,x,5621,BCI,x
 OhYeah! Nutrition OhYeah! Total Protein System,29.75,1,22,210,50,6,2,105,200,220,7,x,2,32,255,x,BCI,x
+AllMax Nutrition HEXAPRO,36.99,1,31,160,25,2.5,1,50,140,150,10,2,3,25,300,x,CI,x
+NOW Whey Protein,22.79,1,21,170,15,2,1,55,135,190,7,2,2,26,x,2730,BCIH,x
+Pro Supps PS Isolate,41.99,1,38,90,0,0,0,12,95,82,0,0,0,20,x,x,I,x
+BSN Whey DNA,25.73,1,25,120,10,1,0.5,50,120,x,4,x,1,24,x,x,BCI,x
