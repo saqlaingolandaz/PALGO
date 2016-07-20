@@ -273,3 +273,12 @@ AllMax Nutrition HEXAPRO,36.99,1,31,160,25,2.5,1,50,140,150,10,2,3,25,300,x,CI,x
 NOW Whey Protein,22.79,1,21,170,15,2,1,55,135,190,7,2,2,26,x,2730,BCIH,x
 Pro Supps PS Isolate,41.99,1,38,90,0,0,0,12,95,82,0,0,0,20,x,x,I,x
 BSN Whey DNA,25.73,1,25,120,10,1,0.5,50,120,x,4,x,1,24,x,x,BCI,x
+NutraFusion Nutritionals NitroFusion,29.65,1,30,120,20,2,0,0,390,60,4,x,4,21,x,2090,BPI,x
+Arnold Schwarzenegger Series Iron Whey,8.15,1,7,120,9,1,0.5,30,160,225,6,0.5,2.5,22,90.19,x,BCIH,x
+Optimum Nutrition Isolate,28.99,1,23,120,10,1,x,15,170,x,3,x,1,25,x,x,I,x
+CTD Sports Isolicious,31.99,1,24,110,0,0,0,0,65,130,2,0,0,25,x,x,I,x
+Muscle FX Hydrobolic FX,69.82,0.016,63,130,5,0.5,0,15,85,x,2,0,2,30,x,x,H,x
+Myogenic Myolean Evolution,32.99,1,30,130,30,3.5,1,5,170,105,7,3,1,21,x,x,IH,x
+NOW Certified Organic Whey Protein,23.99,1,19,100,10,1,0.5,10,45,75,2,x,2,19,x,2389,C,x
+Universal Nutrition Gain Fast 3100,11.52,5,5,868,72,8,1,3,920,700,162,4,77,37,1000,x,C,x
+Nature’s Best Natural Isopure,41.63,2,22,230,10,1,0.5,10,330,380,6,0,5,50,x,x,I,x
