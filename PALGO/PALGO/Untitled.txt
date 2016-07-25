@@ -375,3 +375,13 @@ MusclePharm Combat Powder,28.99,1,27,130,15,1.5,1,80,150,200,4,1,2,25,x,x,BCIH,x
 BPI Sports Best Protein,31.99,1,29,120,15,1.5,1,40,140,x,2,0,2,24,x,x,BICH,x
 Kaged Muscle Re-Kaged,34.97,1,20,160,x,3,x,x,x,x,5,x,x,28,x,x,I,x
 Dymatize Elite 100% Whey Protein,28.99,1,27,120,10,1.5,1,50,60,180,2,0,1,25,x,2.77,BCIH,x
+BSN SYNTHA-6 EDGE,34.99,1,28,150,25,3,1,50,170,x,6,x,3,24,x,x,CIH,x
+Nature’s Best Zero Carb Isopure,15.96,2,7,210,10,1,0.5,5,320,750,0,0,0,50,x,x,I,x
+MuscleTech Phase8,24.99,1,22,150,15,1.5,1,55,160,x,8,x,2,26,530,x,BCIH,x
+Optimum Nutrition Platinum Hydrowhey,31.98,1,20,140,10,1,0.5,0,170,x,2,x,0,30,x,4.1,I,x
+EVLUTION NUTRITION Stacked Protein,28.99,1,25,130,20,2,1,75,80,x,4,1,3,25,x,x,BCIH,x
+MusclePharm Combat 100% Whey,26.99,1,29,120,10,1,0.5,35,65,180,2,0,1,25,x,x,IC,x
+MuscleTech NITRO-TECH,14.99,1,10,160,20,2.5,1.5,70,140,x,4,x,1,30,400,3.2,BIC,x
+BSN Syntha-6,32.99,1,28,200,50,6,2,70,190,220,15,5,4,22,x,x,BCI,x
+Dymatize ISO-100,29.99,1,25,110,5,0,0,5,90,160,1,0,0,25,x,x,I,x
+JYM Pro JYM,32.56,1,26,140,25,2.5,0.5,5,60,150,5,0,2,24,400,x,BI,x
