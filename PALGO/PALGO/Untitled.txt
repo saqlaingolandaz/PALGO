@@ -331,3 +331,26 @@ Optimum Nutrition Natural 100% Oats & Whey,29.99,1,26,200,15,1.5,1,40,190,x,23,4
 MusclePharm Combat 100% Isolate,31.28,1,33,100,0,0,0,0,70,210,0,0,0,24,100,x,I,x
 GAT Supertein,26.39,1,21,180,20,2.5,0.5,55,170,130,19,x,2,20,119,x,BCI,x
 Body Nutrition Trutein Naturals,36.95,1,27,120,10,0.5,x,20,110,80,4,2.5,1,25,x,x,BIC,x
+Tru GRIT Protein,33.65,1,26,140,20,2,1.5,75,180,x,4,x,2,25,168,x,BCIH,x
+Labrada Lean Body MRP,27.98,2,16,290,60,7,2,70,400,585,21,7,5,35,x,3.6,CI,x
+MuscleTech Platinum 100% Beef Protein,25.96,1,28,110,0,0,0,0,300,x,3,x,0,24,270,x,MH,x
+Nature’s Best Isopure Whey Protein Isolate,15.48,1,16,110,0,0,0,5,170,20,0,0,0,26,x,x,I,x
+Dymatize Elite Fusion 7,23.40,1,20,170,45,5,1,35,80,140,12,5,1,23,x,x,BCIH,x
+Labrada Jamie Eason Signature Series 100% Whey Protein Shake,39.77,1,30,160,35,3.5,1.5,70,130,150,10,3,3,25,x,x,C,x
+Optimum Nutrition Pro Complex,28.98,2,10,270,10,1,0.5,30,150,x,6,0,1,60,x,x,BIH,x
+NOW Whey Protein Isolate,19.79,1,19,110,5,0.5,0,5,45,135,1,0,1,25,x,2.7,I,x
+Bodybuilding.com Foundation Series 100% Whey Power,39.99,1,25,150,25,3,1,50,80,300,6,1,3,25,140,x,BCIH,x
+Optimum Nutrition Protein Energy,19.99,2,26,100,20,2,1,45,220,x,1,1,1,20,x,x,BCIH,x
+BSN Isoburn,28.18,1,20,120,20,2,1,10,170,x,6,x,1,20,x,I,x
+Beast Sports Nutrition Beast Protein,23.99,1,26,140,15,2,1,70,140,x,5,x,2,25,136,x,BCIH,x
+AllMax Nutrition IsoFlex,22.99,1,14,115,0,0,0,0,65,220,1,0,0,27,x,2.8,BIH,x
+EAS Myoplex Protein Blend,32.99,1,24,130,15,1.5,0,10,170,220,2,2,2,26,640,0.5,BI,x
+MRM Veggie Elite,27.38,1,30,130,x,1.5,0.5,0,340,10,4,2,0,24,x,2.1,PC,x
+Dymatize Elite Gourmet Protein,19.95,1,25,130,15,1.5,0.5,40,140,220,10,3,6,21,x,2.0,BCI,x
+RSP Nutrition Whey,29.97,1,26,130,20,2,1,60,125,125,5,2,3,25,x,x,BCHI,x
+BSN Syntha-6 Isolate,33.73,1,24,150,20,2,0.5,20,190,x,7,2,1,25,x,x,I,x
+Dymatize Elite XT,18.11,1,27,130,10,1.5,0,20,220,290,8,0,4,21,x,2.0,BCI,x
+BPI Sports Whey-HD,27.94,1,25,150,25,3,1.5,95,120,x,4,0,2,25,300,x,BCI,x
+Labrada Lean Pro8,30.15,1,26,225,72,8,3.5,70,170,110,13,4,3,25,x,4.0,BCIH,x
+Universal Nutrition Real Gains,24.14,3.5,11,605,45,5,3,100,175,396,88,2,5,52,318,10.69,C,x
+Optimum Nutrition Platinum Hydrobuilder,31.49,1,20,170,20,2,1.5,50,300,x,7,1,2,30,200,x,BIHC,x
