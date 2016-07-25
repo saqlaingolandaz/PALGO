@@ -354,3 +354,24 @@ BPI Sports Whey-HD,27.94,1,25,150,25,3,1.5,95,120,x,4,0,2,25,300,x,BCI,x
 Labrada Lean Pro8,30.15,1,26,225,72,8,3.5,70,170,110,13,4,3,25,x,4.0,BCIH,x
 Universal Nutrition Real Gains,24.14,3.5,11,605,45,5,3,100,175,396,88,2,5,52,318,10.69,C,x
 Optimum Nutrition Platinum Hydrobuilder,31.49,1,20,170,20,2,1.5,50,300,x,7,1,2,30,200,x,BIHC,x
+NLA for Her Her Whey,38.97,2,18,190,x,5,x,3,214,316,6,5,0,28,290,2.41,I,x
+BPI Sports ISO HD,29.99,1,23,120,10,1,0.5,25,85,140,2,0,1,25,x,x,IH,x
+MHP Up Your Mass,15.40,4,7,510,99,11,2,5,490,830,58,11,2,46,x,9.0,BC,x
+CytoSport Muscle Milk,26.86,1,32,150,50,6,2,10,80,210,9,2,2,16,x,x,BHC,x
+MuscleTech Platinum 100% Iso Whey,24.19,1,26,120,5,0.5,x,5,105,x,2,x,1,25,118,x,BIH,x
+MuscleTech 100% Whey Advanced,29.99,1,27,130,25,2,1.5,70,125,x,3,x,2,25,95,x,BIC,x
+Vega Sport Performance Protein,28.99,1,12,150,25,3,0,0,390,x,4,2,1,30,x,2.94,P,x
+FitMiss Delight,28.98,1,36,90,15,1.5,0.5,50,90,122,3,1,1,16,78,x,BIH,x
+Grenade Hydra 6,29.47,1,25,150,30,3.5,0.5,10,50,x,5,0,2,24,440,x,I,x
+Labrada Jamie Eason Signature Series Whey Protein Isolate,35.69,1,17,150,30,3,1,17,150,150,6,3,4,25,x,x,I,x
+Dymatize Super Mass Gainer,27.99,2,8,1280,90,10,3,35,510,2210,252,x,19,52,1455,x,BIC,x
+Beverly International UMP,35.96,1,30,120,25,3,0.5,10,170,220,5,1,1,20,297,x,CI,x
+AllMax Nutrition AllWhey Classic,21.99,1,21,170,20,2,1,80,150,320,9,0,8,30,200,3.0,BCI,x
+MuscleMeds Carnivor,23.73,1,28,120,0,0,0,0,300,150,7,x,0,23,x,x,MH,x
+Body Nutrition Trutein,32.59,1,27,120,10,1,0.5,20,115,x,5,2.5,1,25,x,x,BIC,x
+MuscleTech Platinum 100% Whey,28.95,1,27,130,15,1.5,1,55,160,x,4,1,2,24,260,x,BIC,x
+PEScience Select Protein,9.99,1,7,116,13.5,1.5,1,45,234,x,2.5,1,1.5,24,x,x,BC,x
+MusclePharm Combat Powder,28.99,1,27,130,15,1.5,1,80,150,200,4,1,2,25,x,x,BCIH,x
+BPI Sports Best Protein,31.99,1,29,120,15,1.5,1,40,140,x,2,0,2,24,x,x,BICH,x
+Kaged Muscle Re-Kaged,34.97,1,20,160,x,3,x,x,x,x,5,x,x,28,x,x,I,x
+Dymatize Elite 100% Whey Protein,28.99,1,27,120,10,1.5,1,50,60,180,2,0,1,25,x,2.77,BCIH,x
