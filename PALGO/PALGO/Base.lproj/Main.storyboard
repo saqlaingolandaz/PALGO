@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,6 +19,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHx-1A-Wmp">
                                 <rect key="frame" x="117" y="77" width="141" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Lean Muscle Growth"/>
                                 <connections>
                                     <segue destination="4pf-aD-DRi" kind="show" id="Xe8-CO-s5u"/>
@@ -26,6 +27,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4e-gT-ohB">
                                 <rect key="frame" x="117" y="123" width="141" height="30"/>
+                                <animations/>
                                 <state key="normal" title="General Workout"/>
                                 <connections>
                                     <segue destination="1TE-0t-GPt" kind="show" id="5pt-f1-Rzb"/>
@@ -33,11 +35,13 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goal?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQM-te-5x1">
                                 <rect key="frame" x="161" y="28" width="53" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -61,12 +65,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Budget?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MoT-Fj-SG0">
                                 <rect key="frame" x="148" y="28" width="79" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP9-1H-8pO">
                                 <rect key="frame" x="164" y="134" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="$"/>
                                 <connections>
                                     <action selector="oneClicked:" destination="1TE-0t-GPt" eventType="touchUpInside" id="0gY-N7-02r"/>
@@ -75,6 +81,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KG-6o-kVs">
                                 <rect key="frame" x="164" y="238" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="$$"/>
                                 <connections>
                                     <action selector="twoClicked:" destination="1TE-0t-GPt" eventType="touchUpInside" id="NAl-lN-n48"/>
@@ -83,6 +90,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODf-b6-FDb">
                                 <rect key="frame" x="164" y="362" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="$$$"/>
                                 <connections>
                                     <action selector="threeClicked:" destination="1TE-0t-GPt" eventType="touchUpInside" id="jtd-Hs-gEJ"/>
@@ -90,6 +98,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -113,12 +122,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How often do you work out/exercise every week?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i11-gZ-ixT">
                                 <rect key="frame" x="20" y="28" width="335" height="54"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPd-Rq-GAZ">
                                 <rect key="frame" x="164" y="133" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="1-3"/>
                                 <connections>
                                     <action selector="oneToThreeClicked:" destination="XpM-w2-u3i" eventType="touchUpInside" id="jeu-6b-Vhp"/>
@@ -127,6 +138,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbL-HN-Iby">
                                 <rect key="frame" x="164" y="244" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="3-5"/>
                                 <connections>
                                     <action selector="threeToFiveClicked:" destination="XpM-w2-u3i" eventType="touchUpInside" id="Qgy-Yj-AlE"/>
@@ -135,6 +147,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-3l-aKx">
                                 <rect key="frame" x="164" y="358" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="5-7"/>
                                 <connections>
                                     <action selector="fiveToSevenClicked:" destination="XpM-w2-u3i" eventType="touchUpInside" id="AcA-Vt-5Dk"/>
@@ -142,6 +155,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -170,12 +184,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Describe your workout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLy-CF-Qyx">
                                 <rect key="frame" x="81" y="28" width="212" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7S-fq-Y6a">
                                 <rect key="frame" x="125" y="128" width="124" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Weights Training"/>
                                 <connections>
                                     <action selector="weightsClicked:" destination="nDl-6T-leR" eventType="touchUpInside" id="139-Bj-XqF"/>
@@ -184,6 +200,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Co-aa-YjM">
                                 <rect key="frame" x="164" y="246" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Cardio"/>
                                 <connections>
                                     <action selector="cardioClicked:" destination="nDl-6T-leR" eventType="touchUpInside" id="zim-in-M9U"/>
@@ -192,6 +209,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ota-PL-tSe">
                                 <rect key="frame" x="164" y="363" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Both"/>
                                 <connections>
                                     <action selector="bothClicked:" destination="nDl-6T-leR" eventType="touchUpInside" id="5qu-gr-n6O"/>
@@ -199,6 +217,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -227,12 +246,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many meals do you eat per day?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRO-7r-Smh">
                                 <rect key="frame" x="16" y="34" width="336" height="24"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIZ-a3-x9Q">
                                 <rect key="frame" x="169" y="118" width="30" height="30"/>
+                                <animations/>
                                 <state key="normal" title="&lt; 3"/>
                                 <connections>
                                     <action selector="lessThanThreeClicked:" destination="82J-Am-kiw" eventType="touchUpInside" id="26a-dZ-NsI"/>
@@ -241,6 +262,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oq-Na-Vqn">
                                 <rect key="frame" x="172" y="246" width="30" height="30"/>
+                                <animations/>
                                 <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="threeClicked:" destination="82J-Am-kiw" eventType="touchUpInside" id="8vI-0d-eWu"/>
@@ -249,6 +271,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6m-rc-bMV">
                                 <rect key="frame" x="172" y="365" width="30" height="30"/>
+                                <animations/>
                                 <state key="normal" title="&gt; 3"/>
                                 <connections>
                                     <action selector="moreThanThreeClicked:" destination="82J-Am-kiw" eventType="touchUpInside" id="LWZ-wU-WEm"/>
@@ -256,6 +279,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -281,6 +305,7 @@
                     <view key="view" contentMode="scaleToFill" id="3Uo-54-5hc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -301,6 +326,7 @@
                     <view key="view" contentMode="scaleToFill" id="dXa-9B-7wq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
